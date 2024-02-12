@@ -14,16 +14,14 @@ const HeroSection = () => {
           animate={{opacity: 1, scale: 1}}
           transition={{duration: 0.5}}
           className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
-        <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+        <h1 className="text-white mb-4 text-2xl sm:text-3xl lg:text-5xl lg:leading-normal font-extrabold">
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-600'>
-              Hello, I&apos;m{" "} 
+              Hello, I&apos;m James{" "} 
             </span>
             <br/>
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'James',
-                1000,
                 'Web developer',
                 1000,
                 'Fullstack developer',
@@ -40,8 +38,10 @@ const HeroSection = () => {
 
           </h1>
         <p className='text-[#ADB7BE text-lg sm:text-lg mb-6 lg:text-xl'>
-            Full stack Web applications by extending the latest React features, 
-            and integrating powerful Rust-based JavaScript tooling for the fastest builds.
+        I am a passionate web developer dedicated to continuous learning and growth. With practical expertise in 
+        front-end and back-end development, I strive to improve daily, ensuring that I stay at the forefront of the 
+        ever-evolving tech landscape.
+
         </p>
         <div>
           <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-green-500 to-blue-500 text-white hover:bg-slate-200'>
