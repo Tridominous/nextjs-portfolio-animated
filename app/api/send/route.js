@@ -1,5 +1,7 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
+import dotenv from 'dotenv';
+dotenv();
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const fromEmail = process.env.FROM_EMAIL;
@@ -26,3 +28,4 @@ export async function POST(req, res) {
     return NextResponse.json({ error });
   }
 }
+
